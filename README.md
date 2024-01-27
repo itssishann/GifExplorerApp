@@ -1,8 +1,28 @@
-# React + Vite
+# GIF Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Explore and discover random GIFs from Giphy.com with GIF Explorer!
 
-Currently, two official plugins are available:
+Visit the live preview: [GIF Explorer](https://gif-explorer-app.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Fetches random GIFs from Giphy.com.
+- Live preview to enjoy the GIFs instantly.
+
+## How to Use
+
+1. Visit the [GIF Explorer](https://gif-explorer-app.vercel.app/) site.
+2. Click the "Explore GIFs" button to fetch a random GIF.
+3. Enjoy the live preview of the GIF!
+
+## Development
+
+To run the project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/gif-explorer.git
+   npm install
+   npm run dev
+   and good to go dont forget to add api key from giphy
