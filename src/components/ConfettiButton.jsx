@@ -21,8 +21,6 @@ const ConfettiButton = () => {
   return (
     <div>
       {isConfettiActive && <Confetti />}
-
-      <button>Click for Confetti</button>
     </div>
   );
 };
